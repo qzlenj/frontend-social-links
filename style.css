@@ -1,30 +1,38 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --green: hsl(75, 94%, 57%);
+  --gray-900: hsl(0, 0%, 8%);
+  --gray-800: hsl(0, 0%, 12%);
+  --gray-700: hsl(0, 0%, 20%);
+}
 
+html {
+  font-size: 16px;
+}
 
 @font-face {
-  font-display: swap; 
-  font-family: 'Inter';
+  font-display: swap;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/inter-v20-latin-regular.woff2') format('woff2'); 
+  src: url("./fonts/inter-v20-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-display: swap; 
-  font-family: 'Inter';
+  font-display: swap;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  src: url('./fonts/inter-v20-latin-600.woff2') format('woff2'); 
+  src: url("./fonts/inter-v20-latin-600.woff2") format("woff2");
 }
 
 @font-face {
-
-  font-display: swap; 
-  font-family: 'Inter';
+  font-display: swap;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  src: url('./fonts/inter-v20-latin-700.woff2') format('woff2'); 
+  src: url("./fonts/inter-v20-latin-700.woff2") format("woff2");
 }
-
 
 .attribution {
   font-size: 0.6875rem;
