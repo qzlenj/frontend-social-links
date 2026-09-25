@@ -29,7 +29,7 @@ The main goal was to recreate the provided design while practicing semantic HTML
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/qzlenj/frontend-social-links)
-- Live Site URL: [Live Site](YOUR-LIVE-SITE-URL)
+- Live Site URL: [Live Site]([YOUR-LIVE-SITE-URL](https://qzlenj.github.io/frontend-social-links/?utm_source=chatgpt.com))
 
 ## My process
 
