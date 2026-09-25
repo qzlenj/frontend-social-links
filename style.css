@@ -6,15 +6,6 @@
   --gray-700: hsl(0, 0%, 20%);
 }
 
-html {
-  font-size: 16px;
-}
-
-*,
-body {
-  font-family: "Inter";
-}
-
 @font-face {
   font-display: swap;
   font-family: "Inter";
@@ -39,10 +30,98 @@ body {
   src: url("./fonts/inter-v20-latin-700.woff2") format("woff2");
 }
 
+*,
+body {
+  font-family: "Inter";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--gray-900);
+  text-align: center;
+  min-height: 100vh;
+  font-size: 0.875rem;
+  color: var(--white);
+  padding: 1.5rem 1rem
+}
+
+.card {
+  background-color: var(--gray-800);
+  max-width: 500px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.card__profile-pic {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1.5rem auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.card__username {
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+
+.card__location {
+  color: var(--green);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.card__user-job {
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.card__social-links a {
+  text-decoration: none;
+}
+
+.card__social-links ul {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-weight: 700;
+}
+
+.card__social-links a {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: var(--gray-700);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.card__social-links a:hover {
+  background-color: var(--green);
+  color: var(--gray-900);
+}
+
+/* Footer */
+
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: var(--green);
+  font-size: 1.1rem;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }
